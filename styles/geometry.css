@@ -75,10 +75,9 @@ header {
 /* CONTENT */
 
 .content {
-    margin: 10px 100px;
+    margin: 10px 70px;
     display: grid;
     grid-gap: 10px;
-    height: 100vh;
 }
 
 .mp_art {
@@ -111,8 +110,50 @@ header {
     grid-column: 5 / span 4;
 }
 
+.mp_art h2, .mp_band h2, .more {
+    padding: 5px 0px 0px 10px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cntr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tape {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tape_box {
+    padding: 20px 20px;
+}
+
+.list_box {
+    padding: 20px 0;
+}
+
+.list_item {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.list_item_descr {
+    margin-left: 10px;
+}
+
+.tape_item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FOOTER */
