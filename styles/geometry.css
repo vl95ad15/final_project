@@ -29,6 +29,26 @@ header {
     justify-content: space-between;
 }
 
+.search-container {
+    margin-right: 25px;
+}
+
+.menu_box input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    width: 400px;
+}
+
+.menu_box .search-container button {
+    float: right;
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
 .menu_box {
     display: flex;
     align-items: center;
@@ -82,22 +102,12 @@ header {
 
 .mp_art {
     grid-row: 1 / span 3;
-    grid-column: 1 / span 8;
+    grid-column: 1 / span 9;
 }
 
 .mp_band {
     grid-row: 4 / span 3;
-    grid-column: 1 / span 8;
-}
-
-.tag {
-    grid-row: 1 / span 3;
-    grid-column: 9 / span 3;
-}
-
-.news {
-    grid-row: 4 / span 8;
-    grid-column: 9 / span 3;
+    grid-column: 1 / span 9;
 }
 
 .new_t {
@@ -107,7 +117,16 @@ header {
 
 .new_a {
     grid-row: 7 / span 5;
-    grid-column: 5 / span 4;
+    grid-column: 6 / span 4;
+}
+
+.news {
+    grid-row: 1 / span 11;
+    grid-column: 10 / span 2;
+}
+
+.new_t, .new_a {
+    padding-top: 20px;
 }
 
 .mp_art h2, .mp_band h2, .more {
@@ -133,20 +152,8 @@ header {
 }
 
 .tape_box {
-    padding: 20px 20px;
-}
-
-.list_box {
-    padding: 20px 0;
-}
-
-.list_item {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.list_item_descr {
-    margin-left: 10px;
+    padding: 20px 0px;
+    
 }
 
 .tape_item a {
@@ -154,6 +161,29 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.list_box {
+    margin: 20px 0;
+}
+
+.list_item {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px 0;
+}
+
+.list_item_descr {
+    margin-left: 10px;
+}
+
+.news_box {
+    padding: 0 15px;
+}
+
+.news_item {
+    margin-top: 20px;
+    padding: 0 50px;
 }
 
 /* FOOTER */

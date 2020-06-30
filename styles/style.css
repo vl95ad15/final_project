@@ -14,6 +14,10 @@ header h1 {
     color: #9CF9FF;
 }
 
+.menu_box .search-container button:hover {
+    background: #ccc;
+}
+
 .btn a, .menu ul li a, .more a {
     text-decoration: none;
     background-color: inherit;
@@ -69,22 +73,22 @@ header h1 {
     font-size: 20px;
 }
 
-h1 span {
+h1 span, .news_item a:hover {
     color: #9CF9FF;
 }
 
-    .content div {
+    /* .content div {
         background-color: rgb(66, 66, 66);
         border-radius: 5px;
-    }
+    } */
 
 .content div h2 {
     color: #fff;
 }
 
 .tape_item img {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     border-radius: 10px;
 }
 
@@ -111,6 +115,19 @@ h1 span {
 
 .tape_item a {
     text-decoration: none;
+}
+
+.news_item a {
+    color: #73C0C5;
+}
+
+.news_date {
+    color: #999999;
+    font-size: smaller;
+}
+
+.news_text {
+    color: #fff;
 }
 
 footer {
