@@ -14,7 +14,6 @@
         "header"
         "main"
         "footer";
-    height: 100vh;
 }
 
 .logo_link h1 {
@@ -30,17 +29,17 @@ header {
 }
 
 .search-container {
-    margin-right: 25px;
+    padding: 10px 10px;
 }
 
-.menu_box input[type=text] {
+input[type=text] {
     padding: 6px;
     font-size: 17px;
     border: none;
-    width: 400px;
+    width: 350px;
 }
 
-.menu_box .search-container button {
+.search-container button {
     float: right;
     padding: 6px 10px;
     background: #ddd;
@@ -94,10 +93,24 @@ header {
 
 /* CONTENT */
 
-.content {
+.content_main {
     margin: 10px 70px;
     display: grid;
     grid-gap: 10px;
+}
+
+.content_news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.date, .main_descr, .addition {
+    padding: 15px 20px;
 }
 
 .mp_art {
@@ -186,10 +199,23 @@ header {
     padding: 0 50px;
 }
 
+.news_block {
+    margin: 1%;
+    width: 48%;
+}
+
 /* FOOTER */
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .content_main {
+        margin: 10px 5px;
+        display: flex;
+        flex-direction: column;
+    }
 }
