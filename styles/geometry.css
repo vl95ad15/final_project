@@ -6,16 +6,6 @@
 
 /* HEADER */
 
-/* .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 60px 1fr 40px;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
-} */
-
 .logo_link h1 {
     display: inline-block;
     height: 100%;
@@ -26,6 +16,9 @@
 header {
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .search-container {
@@ -226,7 +219,7 @@ footer p {
     }
 
     .menu_box {
-        margin: 10px 0;
+        margin: 15px 0;
     }
 
     .logo_link h1 {
@@ -253,6 +246,10 @@ footer p {
     .jn_btn {
         padding: 0;
         margin: 0;
+    }
+
+    .tape_item {
+        margin-bottom: 10px;
     }
 }
 
