@@ -81,7 +81,7 @@ header h1, h1 span, .news_item a:hover {
         border-radius: 5px;
     } */
 
-.content_main div h2, .list_item_descr, .news_text {
+h2, .list_item_descr, .news_text, .caption {
     color: #fff;
 }
 
@@ -138,6 +138,18 @@ header h1, h1 span, .news_item a:hover {
 .news_date {
     color: #999999;
     font-size: smaller;
+}
+
+.news_details {
+    background-color: #fff;
+}
+
+.caption {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #777777;
 }
 
 footer {

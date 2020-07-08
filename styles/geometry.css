@@ -183,6 +183,11 @@ input[type=text] {
     margin-left: 10px;
 }
 
+.news_page {
+    display: flex;
+    margin: 10px 10px;
+}
+
 .news_box {
     padding: 0 15px;
 }
@@ -195,6 +200,28 @@ input[type=text] {
 .news_block {
     margin: 1%;
     width: 48%;
+}
+
+.news_image {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+}
+
+.news_details {
+    max-width: 980px;
+}
+
+.news_description {
+    padding: 15px 50px;
+}
+
+.news_description p {
+    margin: 17px 0;
 }
 
 /* FOOTER */
@@ -250,6 +277,10 @@ footer p {
 
     .tape_item {
         margin-bottom: 10px;
+    }
+
+    .news_page {
+        flex-direction: column;
     }
 }
 
