@@ -96,6 +96,11 @@ input[type=text] {
     grid-gap: 10px;
 }
 
+.content_page {
+    display: grid;
+    margin: 10px 10px;
+}
+
 .content_news {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +138,11 @@ input[type=text] {
 .news {
     grid-row: 1 / span 11;
     grid-column: 10 / span 2;
+}
+
+.page_details {
+    grid-column: 1 / span 9;
+    grid-row: 1 / span 11;
 }
 
 .new_t, .new_a {
@@ -185,11 +195,6 @@ input[type=text] {
 
 .list_item_descr {
     margin-left: 10px;
-}
-
-.content_page {
-    display: flex;
-    margin: 10px 10px;
 }
 
 .news_box {
@@ -295,6 +300,7 @@ footer p {
     }
 
     .content_page {
+        display: flex;
         flex-direction: column;
     }
 }
