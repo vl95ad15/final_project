@@ -22,15 +22,17 @@ header h1, h1 span, .news_item a:hover {
     color: #000000;
 }
 
+.bg_white {
+    background-color: #fff;
+}
+
 .btn a:hover, .menu ul li a:hover, .more a:hover {
     color: #fff;
     opacity: 1;
 }
 
 .checked {
-    text-decoration: underline;
-    text-decoration-color: #9CF9FF;
-    text-decoration-thickness: 7px;
+    text-decoration: underline #9CF9FF 7px;
 }
 
 .btn a, .menu ul li a, .more a {
@@ -53,9 +55,7 @@ header h1, h1 span, .news_item a:hover {
 
 .banner {
     height: 260px;
-    background: url(../img/concert-bg1.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/concert-bg1.jpg) no-repeat center / cover;
     color: #fff;
 }
 
@@ -69,7 +69,7 @@ header h1, h1 span, .news_item a:hover {
     border-radius: 5px;
     background-color: #73C0C5;
     text-decoration: none;
-    color: #000000;
+    color: #000;
     opacity: 0.9;
 }
 
@@ -141,10 +141,6 @@ h2, .list_item_descr, .news_text {
     font-size: 20px;
 }
 
-.page_details {
-    background-color: #fff;
-}
-
 .caption {
     background-color: #c5c5c5;
     opacity: 0.85;
@@ -152,7 +148,7 @@ h2, .list_item_descr, .news_text {
 }
 
 .caption p {
-    font-size: 45px;
+        font-size: 45px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke-width: 1px;
@@ -163,74 +159,148 @@ footer {
     background: #D1D1D1;
 }
 
+/* IMAGES */
+
 .mike {
-    background: url(../img/news_Mike.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_Mike.jpg) no-repeat center / cover;
 }
 
 .soad {
-    background: url(../img/news_SOAD.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_SOAD.jpg) no-repeat center / cover;
 }
 
 .joey {
-    background: url(../img/news_Joey.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_Joey.jpg) no-repeat center / cover;
 }
 
 .tool {
-    background: url(../img/news_tool.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_tool.jpg) no-repeat center / cover;
 }
 
 .portnoy {
-    background: url(../img/news_Portnoy.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_Portnoy.jpg) no-repeat center / cover;
 }
 
 .serj {
-    background: url(../img/news_Serj.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_Serj.jpg) no-repeat center / cover;
 }
 
 .bvb {
-    background: url(../img/news_bvb.jpeg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_bvb.jpeg) no-repeat center / cover;
 }
 
 .metallica {
-    background: url(../img/news_metallica.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_metallica.jpg) no-repeat center / cover;
 }
 
 .slaves {
-    background: url(../img/news_slaves.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_slaves.jpg) no-repeat center / cover;
 }
 
 .bmth {
-    background: url(../img/news_bmth.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_bmth.jpg) no-repeat center / cover;
 }
 
 .blink {
-    background: url(../img/news_blink.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_blink.jpg) no-repeat center / cover;
 }
 
 .corey {
-    background: url(../img/news_corey.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: url(../img/news_corey.jpg) no-repeat center / cover;
+}
+
+.ms {
+    background: url(../img/music_store.png) no-repeat center / contain;
+}
+
+.km {
+    background: url(../img/keymusic.svg) no-repeat center / contain;
+}
+
+.at {
+    background: url(../img/andertons.webp) no-repeat center / contain;
+}
+
+.mm {
+    background: url(../img/mm.png) no-repeat center / contain;
+}
+
+.ds {
+    background: url(../img/ds.svg) no-repeat center / contain;
+}
+
+.pmt {
+    background: url(../img/pmt.svg) no-repeat center / contain;
+}
+
+.mse {
+    background: url(../img/mse.png) no-repeat center / contain;
+}
+
+.thm {
+    background: url(../img/thm.svg) no-repeat center / contain;
+}
+
+.bm {
+    background: url(../img/bm.svg) no-repeat center / contain;
+}
+
+.sw {
+    background: url(../img/sw.webp) no-repeat center / contain;
+}
+
+.lam {
+    background: url(../img/lam.png) no-repeat center / contain;
+}
+
+.wom {
+    background: url(../img/wom.png) no-repeat center / contain;
+}
+
+.imp {
+    background: url(../img/imp.webp) no-repeat center / contain;
+}
+
+.indm {
+    background: url(../img/indm.png) no-repeat center / contain;
+}
+
+.rm {
+    background: url(../img/rm.png) no-repeat center / contain;
+}
+
+.rb {
+    background: url(../img/rb.webp) no-repeat center / contain;
+}
+
+.obt {
+    background: url(../img/obt.webp) no-repeat center / contain;
+}
+
+.metsh {
+    background: url(../img/metsh.png) no-repeat center / contain;
+}
+
+.pr {
+    background: url(../img/pr.png) no-repeat center / contain;
+}
+
+.cr {
+    background: url(../img/cr.png) no-repeat center / contain;
+}
+
+.mp {
+    background: url(../img/mp.png) no-repeat center / contain;
+}
+
+.gibson {
+    background: url(../img/gibson.png) no-repeat center / contain;
+}
+
+.cort {
+    background: url(../img/cort.png) no-repeat center / contain;
+}
+
+.gs {
+    background: url(../img/gs.png) no-repeat center / contain;
 }

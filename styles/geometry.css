@@ -90,6 +90,13 @@ input[type=text] {
 
 /* CONTENT */
 
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .content_main {
     margin: 10px 70px;
     display: grid;
@@ -227,16 +234,27 @@ input[type=text] {
     padding: 10px 10px;
 }
 
-.page_details {
-    max-width: 980px;
-}
-
 .news_description {
     padding: 15px 100px;
 }
 
 .news_description p {
     margin: 17px 0;
+}
+
+.shops_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.shop_box {
+    margin: 20px;
+}
+
+.sh_box_img {
+    width: 300px;
+    height: 100px;
 }
 
 /* FOOTER */
