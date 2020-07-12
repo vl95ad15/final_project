@@ -252,8 +252,18 @@ input[type=text] {
     margin: 20px;
 }
 
+.shop_box:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
 .sh_box_img {
-    width: 300px;
+    width: 320px;
     height: 100px;
 }
 

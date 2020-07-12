@@ -142,8 +142,7 @@ h2, .list_item_descr, .news_text {
 }
 
 .caption {
-    background-color: #c5c5c5;
-    opacity: 0.85;
+    background: rgba(209, 209, 209, 0.7);
     color: #45444a;
 }
 
