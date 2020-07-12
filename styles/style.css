@@ -44,7 +44,7 @@ header h1, h1 span, .news_item a:hover {
     opacity: 0.6;
 }
 
-.menu ul {
+.menu ul, .ls_none {
     list-style: none;
 }
 
@@ -82,7 +82,7 @@ header h1, h1 span, .news_item a:hover {
     font-size: 20px;
 }
 
-h2, .list_item_descr, .news_text {
+h2, .list_item_descr, .news_text, .filters li span, .art_descr p {
     color: #fff;
 }
 
@@ -100,7 +100,7 @@ h2, .list_item_descr, .news_text {
     font-size: larger;
 }
 
-.tape_item img {
+.tape_item img, .art_img img {
     width: 120px;
     height: 120px;
     border-radius: 10px;
@@ -147,7 +147,7 @@ h2, .list_item_descr, .news_text {
 }
 
 .caption p {
-        font-size: 45px;
+    font-size: 45px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke-width: 1px;
