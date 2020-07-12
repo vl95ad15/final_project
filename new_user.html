@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geometry.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/login_page_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>JustPlay</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="login_h">
+            <div class="logo_link">
+                <a href="../final_project/main.html">
+                    <h1>JustPlay</h1>
+                </a>
+            </div>
+        </header>
+        <main>
+            <div class="content_form">
+                <div class="form_box_grid">
+                    <form id="form" action="">
+                        <div class="form_h"><h2>Create New Account</h2>
+                        </div>
+                        <div class="fn"><label for="first_name">First name</label>
+                            <input type="text" placeholder="Enter First Name" name="first_name" id="f_name">
+                        </div>  
+                        <div class="ln"><label for="last_name">Last name</label>
+                            <input type="text" placeholder="Enter Last Name" name="last_name" id="l_name">
+                        </div>          
+                        <div class="un"><label for="user_name">User name</label>
+                            <input type="text" placeholder="Enter User Name" name="user_name" id="u_name">
+                        </div>
+                        <div class="em"><label for="email">Email</label>
+                            <input type="text" placeholder="Enter Email" name="email" id="email">
+                        </div>
+                        <div class="dob"><label for="dob">Date of birth</label>
+                            <input type="date" name="date_of_birth" id="dob">
+                        </div>
+                        <div class="gen">
+                            <label for="gender">Gender:</label>
+                            <hr>
+                            <input type="radio" name="gender" id="gender"> Male
+                            <input type="radio" name="gender" id="gender"> Female
+                            <input type="radio" name="gender" id="gender"> Other
+                        </div>
+                        <div class="pw"><label for="pswd">Password</label>
+                            <input type="password" placeholder="Enter Password" name="pswd" id="pswd">
+                        </div>
+                        <div class="rpw"><label for="pswd_repeat">Repeat Password</label>
+                            <input type="password" placeholder="Repeat Password" name="pswd_repeat" id="pswd_repeat">
+                        </div>
+                        <div class="check"><input type="checkbox" name="terms" id="terms"> I've read and agree to the <a href="#">Terms of Service</a>
+                        </div>
+                        <div class="button"><button type="submit" id="reg_button">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
