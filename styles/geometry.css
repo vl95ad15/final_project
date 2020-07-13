@@ -30,11 +30,11 @@ header {
     padding: 6px;
     font-size: 17px;
     border: none;
-    width: 90%;
+    width: 85%;
 }
 
 .search_area input[type=text] {
-    width: 90%;
+    width: 85%;
     padding: 6px;
     font-size: 17px;
     border: none;
@@ -47,7 +47,7 @@ header {
     font-size: 17px;
     border: none;
     cursor: pointer;
-    width: 10%;
+    width: 15%;
 }
 
 .menu {

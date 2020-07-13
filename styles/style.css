@@ -79,6 +79,9 @@ header h1, h1 span, .news_item a:hover {
 }
 
 .banner_h2 {
+    color: #73C0C5;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #777777;
     font-size: 20px;
 }
 
