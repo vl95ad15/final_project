@@ -31,6 +31,7 @@ header {
     font-size: 17px;
     border: none;
     width: 85%;
+    border-radius: 0;
 }
 
 .search_area input[type=text] {
@@ -38,6 +39,7 @@ header {
     padding: 6px;
     font-size: 17px;
     border: none;
+    border-radius: 0;
 }
 
 .search-container button, .search_area button {
