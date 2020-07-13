@@ -294,6 +294,10 @@ header {
     padding-left: 5px;
 }
 
+.search_area form {
+    margin-bottom: 20px;
+}
+
 /* FOOTER */
 
 footer {
